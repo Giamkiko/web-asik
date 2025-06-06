@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayam Geprek Online</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s forwards;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-orange-50 via-yellow-50 to-orange-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-red-600 to-yellow-500 text-white text-center p-8 shadow-md fade-in">
+    <img src="da090132f9c25ffe61964c9dc10dcfbf.png" alt="Logo Ayam Geprek" class="w-24 mx-auto mb-3">
+    <h1 class="text-4xl font-extrabold tracking-wide drop-shadow"><i class="fas fa-drumstick-bite mr-2"></i>Ayam Geprek Asik</h1>
+    <p class="text-lg mt-2 italic">Pedasnya Bikin Nagih!</p>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="py-12 px-4 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center mb-10 fade-in"><i class="fas fa-utensils mr-2"></i>Menu Favorit</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
+        <img src="https://source.unsplash.com/600x400/?fried-chicken" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-1">Ayam Geprek Original</h3>
+          <p class="text-sm text-gray-600">Crispy dan sambal super pedas</p>
+          <p class="font-semibold text-red-600 mt-3">Rp 15.000</p>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
+        <img src="https://source.unsplash.com/600x400/?cheese-chicken" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-1">Ayam Geprek Keju</h3>
+          <p class="text-sm text-gray-600">Lelehan keju menggoda lidah</p>
+          <p class="font-semibold text-red-600 mt-3">Rp 18.000</p>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
+        <img src="https://source.unsplash.com/600x400/?spicy-food" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-1">Ayam Geprek Level 10</h3>
+          <p class="text-sm text-gray-600">Untuk para pecinta tantangan!</p>
+          <p class="font-semibold text-red-600 mt-3">Rp 17.000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Order Section -->
+  <section class="bg-yellow-400 text-center p-8">
+    <h2 class="text-2xl font-semibold mb-3"><i class="fas fa-phone-volume mr-2"></i>Mau Pesan Sekarang?</h2>
+    <a href="https://wa.me/6281234567890" class="inline-block bg-green-600 text-white px-7 py-3 rounded-full text-lg font-bold hover:bg-green-700 transition">
+      <i class="fab fa-whatsapp mr-2"></i>Pesan via WhatsApp
+    </a>
+  </section>
+
+  <!-- Testimoni -->
+  <section class="bg-white py-12 px-4">
+    <h2 class="text-3xl text-center font-semibold mb-10"><i class="fas fa-comment-dots mr-2"></i>Kata Pelanggan</h2>
+    <div class="max-w-5xl mx-auto grid sm:grid-cols-2 gap-8">
+      <div class="bg-orange-100 p-6 rounded shadow-md">
+        <p class="italic">"Enak banget! Sambalnya nampol!"</p>
+        <p class="text-sm font-bold mt-3 text-right">– Rina, Mahasiswa</p>
+      </div>
+      <div class="bg-orange-100 p-6 rounded shadow-md">
+        <p class="italic">"Gepreknya gurih, sambalnya pas! Repeat order terus!"</p>
+        <p class="text-sm font-bold mt-3 text-right">– Dedi, Karyawan</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-red-600 to-yellow-500 text-white text-center p-6">
+    <p><i class="fas fa-heart mr-1"></i>&copy; 2025 Ayam Geprek Asik. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
